@@ -1,13 +1,120 @@
+:root {
+	--primary: #00a2c6;
+}
+
+* {
+	box-sizing: border-box;
+}
+
 body {
-	font-family: sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	padding: 0;
+	margin: 0;
 }
 
 h2,h3 {
-	color: #00a2c6;
+	color: var(--primary);
 }
 
+main{
+	padding: 25px;
+	overflow: auto;
+}
+
+/*header and navigation*/
+header{
+	display: inline;
+}
+
+.jumbotron {
+	font-size: 20px;
+	padding: 60px;
+	background-color: #00c8eb;
+	text-align: center;
+	color: white;
+}
+
+.header{
+	background-color: var(--primary);
+}
+
+nav {
+	background-color: var(--primary);
+	padding: 5px;
+	position: sticky;
+	top: 0;
+}
+
+nav a {
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+/*end header-navigation*/
+
+#content{
+	width: 75%;
+	float: left;
+}
+
+#side-content{
+	width: 25%;
+	float: right;
+	padding-left: 20px;
+}
+
+/*profile*/
+.profile header {
+	text-align: center;
+}
+
+.profile img{
+	width: 200px;
+}
+/*end profile*/
+
+.featured-images{
+	width: 100%;
+	max-height: 300px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+
+/*footer*/
 footer{
 	padding: 20px;
 	color: white;
 	background-color: #00a2c6;
+	text-align: center;
+	font-weight: bold;
+}
+/*end footer*/
+
+
+/*responsive*/
+@media screen and (max-width: 1000px) {
+	#content, #side-content{
+		width: 100%;
+		padding: 0;
+	}
 }
