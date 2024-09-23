@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DARA | Website Donor Darah</title>
+	<!-- my css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- my font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+	<!-- my feather icon -->
+	<script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+	<!-- header -->
+	<header id="header">
+		<div class="menu">
+			<span><i data-feather="menu"></i></span>
+		</div>
+		<div id="logo">
+			<a href="#">DARA</a>
+		</div>
+		<nav class="nav-list">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about-dara">About Dara</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="nav-login">
+			<ul>
+				<li><a href="#" id="login-btn">Login</a></li>
+				<li><a href="#" id="register-btn">Register</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<!-- main content -->
+	<main>
+		<!-- hero image -->
+		<div id="home" class="container">
+			<article class="hero-image-container">
+				<div class="hero-image">
+					<img src="assets/images/hero-image.jpg" alt="Gambar hero image Donor darah">
+				</div>
+				<div class="description">
+					<h1 class="title">Solusi Praktis dan Efisien Untuk <span>Donor Darah</span></h1>
+					<p class="text-content">Temukan Kemudahan Dalam Menyelamatkan Nyawa</p>
+					<a href="#" class="call-to-action">Ayo Donor</a>
+				</div>
+			</article>
+		</div>
+		<!-- content -->
+		<div class="content-container">
+			<div class="content">
+				<div id="about-dara">
+					<article class="wrapper">
+						<div class="description">
+							<h3>DARA</h3>
+							<p>Aplikasi kesehatan lengkap, mudah digunakan, dan dirancang untuk kemudahan penggunaan. Mengintegrasikan fitur-fitur untuk mengelola kesehatan dengan lebih baik, di mana pun Anda berada.</p>
+						</div>
+						<div class="image">
+							<img src="assets/images/aplication_icon.png" alt="aplication icon">
+						</div>
+					</article>
+					<article class="wrapper">
+						<div class="description">
+							<h3>Donor Darah</h3>
+							<p>Proses pendaftaran yang sederhana memungkinkan Anda untuk menjadi bagian dari jaringan donor yang penting untuk menyelamatkan nyawa.</p>
+						</div>
+						<div class="image">
+							<img src="assets/images/donor-icon.png" alt="aplication icon">
+						</div>
+					</article>
+					<article class="wrapper">
+						<div class="description">
+							<h3>Beli Darah</h3>
+							<p>Melalui platform ini, Anda dapat menemukan donor yang sesuai dengan kebutuhan Anda dan melakukan pembelian dengan aman dan nyaman.</p>
+						</div>
+						<div class="image">
+							<img src="assets/images/gift-darah-icon.png" alt="aplication icon">
+						</div>
+					</article>
+					<article class="wrapper">
+						<div class="description">
+							<h3>Konsultasi Medis</h3>
+							<p>Ini memungkinkan Anda untuk mendapatkan perawatan yang Anda butuhkan tanpa harus meninggalkan kenyamanan rumah Anda.</p>
+						</div>
+						<div class="image">
+							<img src="assets/images/doctor-icon.png" alt="aplication icon">
+						</div>
+					</article>
+				</div>
+			</div>
+			<aside class="aside-content">
+				<!-- information detail -->
+				<article class="information">
+					<div class="icon-pmi">
+						<img src="assets/images/pmi-icon.png" alt="pmi icon">
+					</div>
+					<div class="details">
+						<h2>Informasi Terkait</h2>
+						<div>
+							<p><span><i data-feather="clock" class="icon"></i></span> : senin-jumat, 08:00 - 16:00 WIB</p>
+							<p><span><i data-feather="map-pin" class="icon"></i></span> : PMI Tembilahan, kab.indragiri hilir</p>
+							<p><span><i data-feather="mail" class="icon"></i></span> : dara.example@gmail.com</p>
+							<p><span><i data-feather="phone" class="icon"></i></span> : 08123456789</p>
+						</div>
+					</div>
+				</article>
+				<!-- article -->
+				<article class="article-content">
+					<h2>Artikel terkait</h2>
+					<div id="articles-container">
+						<!-- article di looping menggunakan js -->
+					</div>
+				</article>
+			</aside>
+		</div>
+		<div id="contact" class="contact">
+			<article class="contact-container">
+				<section>
+					<h2>Contact us</h2>
+					<p>Silakan hubungi kami jika Anda memiliki pertanyaan atau butuh informasi lebih lanjut</p>
+					<form action="#" method="post" class="form-contact">
+						<div class="input-container">
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" placeholder="Masukan email anda" autocomplete="off">
+						</div>
+						<div class="input-container">
+							<label for="message">Pesan</label>
+							<textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini"></textarea>
+						</div>
+						<button type="submit" class="btn">Kirim</button>
+					</form>
+				</section>
+			</article>
+		</div>
+	</main>
+
+	<!-- footer -->
+	<footer class="footer">
+		<article>
+			<section>
+				<div class="footer-heading">
+					<h2>DARA</h2>
+					<p>Solusi praktis untuk donor darah</p>
+				</div>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#about-dara">About Dara</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<div class="footer-icons">
+					<a href="#"><i data-feather="instagram"></i></a>
+					<a href="#"><i data-feather="facebook"></i></a>
+					<a href="#"><i data-feather="twitter"></i></a>
+				</div>
+				<div>
+					<p>&copy; Muhammad Aidil | 2024</p>
+				</div>
+			</section>
+		</article>
+	</footer>
+
+	<script>
+	feather.replace();
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>
